@@ -10,9 +10,9 @@ import json
 
 
 url1 = "https://twitter.com/i/search/timeline?f=tweets&vertical=default&q=%EB%AC%B8%EC%9E%AC%EC%9D%B8%20since%3A"
-date1 = "2017-05-09"
+date1 = "2017-05-12"
 url2 = "%20until%3A"
-date2 = "2017-05-10"
+date2 = "2017-05-13"
 url3 = "&src=typd&include_available_features=1&include_entities=1&lang=ko&max_position=TWEET-"
 num1 = "868616452256837634"
 #-
@@ -26,7 +26,7 @@ headers['User-Agent'] = "chrome/5.0"
 count = 0
 
 #n = 100
-init_date = datetime(2017, 5, 9)
+init_date = datetime(2017, 5, 12)
 
 while(1):
     #n = n - 1
